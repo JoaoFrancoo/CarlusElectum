@@ -57,7 +57,7 @@ nav a:hover{
 section{
     padding: 20px;
 }
-.main-section{
+.img-text{
     margin-top: 220px;
     display: flex;
     align-items: center;
@@ -75,6 +75,25 @@ section{
     text-align: left;
     background-color: rgba(255, 255, 255, 0.8);
 }
-footer{
-    
+.info-container {
+    margin-top: 133px;
+    background-color: whitesmoke; /* Cor de fundo para a div que envolve h2 e section */
+    text-align: center; /* Centraliza o texto do h2 */
+    padding: 20px; /* Adiciona espaço interno à div */
+}
+
+.info-container h2 {
+    margin-bottom: 25px;
+}
+
+.small-texts {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.small-text {
+    align-items: center;
+    margin: 0 5px;
+    padding: 10px; /* Adiciona espaço interno aos textos */
 }
