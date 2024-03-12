@@ -80,7 +80,7 @@ section{
     background-color: rgba(255, 255, 255, 0.8);
 }
 .info-container {
-    margin-top: 45px;
+    margin-top: 85px;
     background-color: whitesmoke; /* Cor de fundo para a div que envolve h2 e section */
     text-align: center; /* Centraliza o texto do h2 */
     padding: 20px; /* Adiciona espaço interno à div */
@@ -100,4 +100,80 @@ section{
     align-items: center;
     margin: 0 5px;
     padding: 10px; /* Adiciona espaço interno aos textos */
+}
+.right-button{
+    bottom: 0;
+    right: 0;
+    margin: 20px; 
+  }
+
+
+
+  .site-footer {
+    background-color: gray;
+    padding: 50px 0;
+    color: whitesmoke;
+}
+
+.site-footer h4 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.useful-links li {
+    margin-bottom: 8px;
+}
+
+.footer-bottom-text {
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* CSS da página "projeto" */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.projects {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.projects td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.projects img {
+    max-width: 100%;
+    height: auto;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.projects a:hover {
+    color: #666;
 }
