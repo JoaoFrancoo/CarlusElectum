@@ -58,7 +58,7 @@ section{
     padding: 20px;
 }
 .img-text{
-    margin-top: 100px;
+    margin-top: 140px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -80,7 +80,7 @@ section{
     background-color: rgba(255, 255, 255, 0.8);
 }
 .info-container {
-    margin-top: 85px;
+    margin-top: 150px;
     background-color: whitesmoke; /* Cor de fundo para a div que envolve h2 e section */
     text-align: center; /* Centraliza o texto do h2 */
     padding: 20px; /* Adiciona espaço interno à div */
@@ -176,4 +176,40 @@ h1 {
 
 .projects a:hover {
     color: #666;
+}
+
+/*Página para obter-se os detalhes de cada projeto meu criado*/
+
+.project-container {
+    display: flex;
+
+}
+
+.project {
+    margin-right: 20px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project-details table {
+    margin-top: 45px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.project-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.project-details img {
+    max-width: 100%;
+    height: auto;
 }
