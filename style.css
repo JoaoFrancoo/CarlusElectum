@@ -59,34 +59,8 @@ nav a:hover {
     color: #ddd;
 }
 
-section {
+.section {
     padding: 20px;
-}
-
-.img-text {
-    margin-top: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 40vh;
-}
-
-.image-half img {
-    max-width: 75%;
-    max-height: 75%;
-    object-fit: cover;
-}
-
-.small-image {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.text-half {
-    flex: 1;
-    padding: 20px;
-    text-align: left;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .info-container {
@@ -100,140 +74,37 @@ section {
     margin-bottom: 25px;
 }
 
-.small-texts {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-}
-
-.small-text {
-    align-items: center;
-    margin: 0 5px;
-    padding: 10px;
-}
-
 .right-button {
     bottom: 0;
     right: 0;
     margin: 20px;
 }
 
-.site-footer {
-    background-color: gray;
-    padding: 50px 0;
-    color: whitesmoke;
-}
-
-.site-footer h4 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.contact-info li {
-    margin-bottom: 10px;
-}
-
-.useful-links li {
-    margin-bottom: 8px;
-}
-
-.footer-bottom-text {
-    margin-top: 20px;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 14px;
-}
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
-
-/* CSS responsivo */
-@media only screen and (max-width: 768px) {
-    .header-title {
-        margin-left: 10px;
-    }
-
-    h1 {
-        font-size: 2em;
-    }
-
-    .img-text {
-        margin-top: 100px;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .image-half img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .text-half {
-        padding: 10px;
-    }
-
-    .info-container {
-        margin-top: 100px;
-    }
-    /* Dentro da sua seção CSS */
-.small-texts {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Isso permite que os itens se ajustem à largura da tela */
+.project-image {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+.project-description {
+    text-align: center;
+}
+.project-details {
+    margin-top: 20px;
 }
 
-.small-text {
-    align-items: center;
-    margin: 0 5px;
-    padding: 10px;
-    flex: 1 0 40%; /* Isso define a largura máxima dos itens para 40% da largura da tela */
-    max-width: 200px; /* Define um tamanho máximo para os itens */
+.project-details h2 {
+    margin-bottom: 20px;
 }
 
-}
-
-@media only screen and (max-width: 480px) {
-    .header-title {
-        margin-left: 5px;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    nav {
-        padding: 5px 0;
-    }
-
-    nav a {
-        padding: 5px 10px;
-    }
-
-    .img-text {
-        margin-top: 80px;
-    }
-
-    .info-container {
-        margin-top: 80px;
-    }
-    /* Dentro da sua seção CSS */
-.small-texts {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Isso permite que os itens se ajustem à largura da tela */
-}
-
-.small-text {
-    align-items: center;
-    margin: 0 5px;
-    padding: 10px;
-    flex: 1 0 40%; /* Isso define a largura máxima dos itens para 40% da largura da tela */
-    max-width: 200px; /* Define um tamanho máximo para os itens */
-}
-
+.project-details ul li {
+    margin-bottom: 10px;
 }
