@@ -22,6 +22,19 @@ function displayProjectDetails() {
                 const projectImage = document.querySelector('.card-img-top');
                 projectImage.src = projeto.imgUrl;
                 projectImage.alt = projeto.nome; // Define o texto alternativo da imagem
+
+                // Verificar se o PDF está disponível
+                const downloadButton = document.getElementById('downloadButton');
+                const pdfUrl = projeto.urlPdf;
+                if (pdfUrl) {
+                    // Se o PDF estiver disponível, mostrar o botão de download
+                    downloadButton.href = pdfUrl;
+                    downloadButton.style.display = 'inline-block';
+                    document.getElementById('pdfStatus').textContent = ''; 
+                } else {
+                    downloadButton.style.display = 'none';
+                    document.getElementById('pdfStatus').textContent = 'Em breve!';
+                }
             } else {
                 console.error("Nenhum documento encontrado com o ID fornecido.");
             }
@@ -32,6 +45,5 @@ function displayProjectDetails() {
         console.error("ID do projeto não encontrado na URL.");
     }
 }
-
 // Chame a função para exibir os detalhes do projeto quando a página for carregada
 window.onload = displayProjectDetails;
